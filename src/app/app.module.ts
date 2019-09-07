@@ -7,13 +7,16 @@ import { HeaderFooterModule } from './header-footer/header-footer.module';
 import { HomeComponent } from './home/home.component';
 import { SignupComponent } from './signup/signup.component';
 import { ProjectListComponent } from './project-list/project-list.component';
+import { HeaderComponent } from './header/header.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SignupComponent,
-    ProjectListComponent
+    ProjectListComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
